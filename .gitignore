@@ -1,0 +1,25 @@
+# Unreal Engine 自动生成文件
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# 编译产物
+*.obj
+*.pch
+*.lib
+*.dll
+*.exe
+
+# 大文件需用 Git LFS（如 .uasset）
+*.uasset
+*.umap
+
+# 开发环境文件
+.vs/
+.idea/
+*.log
