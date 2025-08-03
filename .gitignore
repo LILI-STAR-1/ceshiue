@@ -3,10 +3,7 @@ Binaries/
 Intermediate/
 Saved/
 DerivedDataCache/
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+Build/
 
 # 编译产物
 *.obj
@@ -14,12 +11,33 @@ DerivedDataCache/
 *.lib
 *.dll
 *.exe
+*.ilk
+*.exp
+*.app
+*.so
+*.a
 
-# 大文件需用 Git LFS（如 .uasset）
-*.uasset
-*.umap
-
-# 开发环境文件
+# IDE/编辑器文件
 .vs/
 .idea/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+
+# 平台文件
+*.DS_Store
+*.AppleDouble
+*.staging
+
+# 日志和临时文件
 *.log
+*.backup
+*.tmp
+*.pid
+
+# UE 插件和缓存
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+/Marketplace/
